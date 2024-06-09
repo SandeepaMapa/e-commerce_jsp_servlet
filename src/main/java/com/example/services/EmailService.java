@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class EmailService {
     public static void sendVerificationEmail(String email, String token) {
-        final String username = "94d8b227d31dcb8a29353020a6a42bba"; // Your Mailjet API key
-        final String password = "11e320273876d85aa2db231581551b5c"; // Your Mailjet secret key
+        final String username = "94d8b"; // Your Mailjet API key
+        final String password = "11c"; // Your Mailjet secret key
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
